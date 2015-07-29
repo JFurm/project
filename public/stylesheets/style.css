@@ -1,0 +1,37 @@
+body{
+  background-color: #90EE90;
+}
+
+body h1{
+  color: blue;
+  text-align: center;
+}
+
+.loginform {
+  border: 5px solid black;
+  width: 180px;
+  margin-top: 5px
+}
+
+.signupform {
+  border: 5px solid black;
+  width: 180px;
+  margin-top: 5px
+}
+
+img.wheelie-machine{
+  position: center;
+  width: 500px;
+  box-shadow: 5px 5px 5px 5px black;
+
+}
+
+.content-wrapper{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-container{
+  display: inline-block;
+  width: 238px;
+}

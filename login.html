@@ -1,59 +1,69 @@
 <!doctype html>
 <html>
   <head>
-    <title>My Project</title>
+    <title>Wheelie Machine</title>
     <link rel="stylesheet" href="public/stylesheets/style.css">
   </head>
   <body>
+<h1>BRAAAAAAAAPPPPP!!!</h1>
+  <div class="content-wrapper">
+  <img class="wheelie-machine" src="http://i273.photobucket.com/albums/jj225/jckhmmrdave/gsxrwheelie2.jpg">
 
-    <h1>Login</h1>
+    <div class="loginform form-container">
+      
+      <h2>Login</h2>
 
-      <form action="/login" method="POST">
-
-        <div>
-            <label for="email">Email Address</label>
-            <input type="email" name="email" id="email" value="" placeholder="email address" />
-          </div>
-
-          <div>
-            <label for="password">Password</label>
-            <input type="text" name="password" id="password" value="" placeholder="password" />
-          </div>
+        <form action="/login" method="POST" class="login-form">
 
           <div>
-            <input type="button" name="submit" id="submit" value="submit" /> 
-          </div>
+              <label for="email">Email Address</label>
+              <input type="email" name="email" id="email" value="" placeholder="email address" />
+            </div>
 
-      </form>
+            <div>
+              <label for="password">Password</label>
+              <input type="text" name="password" id="password" value="" placeholder="password" />
+            </div>
 
-    <h1>Sign Up!</h1>
+            <div>
+              <input type="button" name="submit" id="submit" value="submit" /> 
+            </div>
 
-      <form action="/signup" method="POST">
-          
-          <div>
-            <label for="first-name">First Name</label>
-            <input type="text" name="first-name" id="first-name" value="" placeholder="first name" />
-          </div>
+        </form>
 
-          <div>
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last-name" id="last-name" value="" placeholder="last name" />
-          </div>
+      </div>
 
-          <div>
-            <label for="email">Email Address</label>
-            <input type="email" name="email" id="email" value="" placeholder="email address" />
-          </div>
+      <div class="signupform form-container">
+        <h2>Sign Up!</h2>
 
-          <div>
-            <label for="password">Password</label>
-            <input type="text" name="password" id="password" value="" placeholder="password" />
-          </div>
+          <form action="/signup" method="POST" class="signup-form">
+              
+              <div>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" value="" placeholder="first name" />
+              </div>
 
-          <div>
-            <input type="button" name="submit" id="submit" value="submit" /> 
-          </div>
+              <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" value="" placeholder="last name" />
+              </div>
 
-      </form>
+              <div>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" value="" placeholder="email address" />
+              </div>
+
+              <div>
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password" value="" placeholder="password" />
+              </div>
+
+              <div>
+                <input type="button" name="submit" id="submit" value="submit" /> 
+              </div>
+
+          </form>
+        </div> 
+      </div>
   </body>
 </html>
