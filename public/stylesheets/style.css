@@ -31,6 +31,25 @@ img.wheelie-machine{
 
 .form-container{
   display: inline-block;
-  width: 238px;
+  width: 200px;
+  margin-left: 42px;
   vertical-align: top;
+}
+
+.profile-info {
+  display: inline-block;
+  width: 190px;
+  margin-left: 15px;
+}
+
+.gender-radio{
+  margin: 5px auto;
+}
+
+.profile-pic img{
+  width: 200px;
+}
+
+.profile-pic h2{
+  margin-left: 33px;
 }
