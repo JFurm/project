@@ -1,6 +1,14 @@
+html { 
+  background: url(http://img.inspiringwallpapers.net/wp-content/uploads/2014/06/sportbike.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body{
-  background-color: #ACACAC;
   font-family: tahoma, sans-serif;
+  border-image-source: 
 }
 
 body h1{
@@ -64,5 +72,5 @@ img.wheelie-machine{
 }
 
 .well{
-  background: rgb(100, 100, 150);
+  background-color:rgba (0,0,0,0.5);
 }
