@@ -1,5 +1,6 @@
 body{
-  background-color: #DCDCCB;
+  background-color: #ACACAC;
+  font-family: tahoma, sans-serif;
 }
 
 body h1{
@@ -48,8 +49,20 @@ img.wheelie-machine{
 
 .profile-pic img{
   width: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 150px;
 }
 
-.profile-pic h2{
-  margin-left: 33px;
+.profile-pic{
+  text-align: center; 
+ }
+
+.form-wrapper{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.well{
+  background: rgb(100, 100, 150);
 }

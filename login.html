@@ -2,12 +2,21 @@
 <html>
   <head>
     <title>Wheelie Machine</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="public/stylesheets/style.css">
   </head>
   <body>
-<h1>Rocket Bunny</h1>
+    <div class="col-xs-6 col-xs-offset-3 well">
+    <h1>Rocket Bunny</h1>
   <div class="content-wrapper">
-  <img class="wheelie-machine" src="http://i273.photobucket.com/albums/jj225/jckhmmrdave/gsxrwheelie2.jpg">
+    <img class="wheelie-machine" src="http://i273.photobucket.com/albums/jj225/jckhmmrdave/gsxrwheelie2.jpg">
 
     <div class="loginform form-container">
       
@@ -15,18 +24,18 @@
 
         <form action="/login" method="POST" class="login-form">
 
-          <div>
+          <div class="form-group">
               <label for="email">Email Address</label>
-              <input type="email" name="email" id="email" value="" placeholder="email address" />
+              <input type="email" class="form control" name="email" id="email" value="" placeholder="email address" />
             </div>
 
-            <div>
+            <div class="form-group">
               <label for="password">Password</label>
-              <input type="text" name="password" id="password" value="" placeholder="password" />
+              <input type="text" class="form control" name="password" id="password" value="" placeholder="password" />
             </div>
 
             <div>
-              <input type="button" name="submit" id="submit" value="submit" /> 
+              <input type="button" class="btn btn-success" name="submit" id="submit" value="submit" /> 
             </div>
 
         </form>
@@ -38,32 +47,33 @@
 
           <form action="/signup" method="POST" class="signup-form">
               
-              <div>
+              <div class="form-group">
                 <label for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name" value="" placeholder="first name" />
+                <input type="text" class="form control" name="first-name" id="first-name" value="" placeholder="first name" />
               </div>
 
-              <div>
+              <div class="form-group">
                 <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name" value="" placeholder="last name" />
+                <input type="text" class="form control" name="last-name" id="last-name" value="" placeholder="last name" />
               </div>
 
-              <div>
+              <div class="form-group">
                 <label for="email">Email Address</label>
-                <input type="email" name="email" id="email" value="" placeholder="email address" />
+                <input type="email" class="form control" name="email" id="email" value="" placeholder="email address" />
               </div>
 
-              <div>
+              <div class="form-group">
                 <label for="password">Password</label>
-                <input type="text" name="password" id="password" value="" placeholder="password" />
+                <input type="text" class="form control" name="password" id="password" value="" placeholder="password" />
               </div>
 
               <div>
-                <input type="button" name="submit" id="submit" value="submit" /> 
+                <input type="button" class="btn btn-success" name="submit" id="submit" value="submit" /> 
               </div>
 
           </form>
         </div> 
+      </div>
       </div>
   </body>
 </html>

@@ -2,40 +2,52 @@
 <html>
   <head>
     <title>User Profile</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="public/stylesheets/style.css">
   </head>
   <body>
-    <div class="profile-pic">
-    <h2>Your Profile</h2>
+  <div class="col-xs-6 col-xs-offset-3">
+
+    <div class="profile-pic" class="">
+    <h2>Profile</h2>
       <img src="http://gowelcome.net/wordpress/wp-content/uploads/2015/01/4429404_7308344_lz.jpg">
     </div>
-      <div class="profile-info">
-        <form action="/profile/edit" method="POST">
+             <form action="/profile/edit" method="POST">
 
-          <div>
+          <div class="form-group">
             <label for="email">Email Adresss</label>
-            <input type="email" name="email" id="email" value="" placeholder="youraddress@gmail.com" />
+            <input type="email" class="form-control" name="email" id="email" value="" placeholder="youraddress@gmail.com" />
           </div>
 
-          <div>
+          <div class="form-group">
             <label for="password">Password</label>
-            <input type="text" name="password" id="password" value="" placeholder="password" />
+            <input type="text" class="form-control" name="password" id="password" value="" placeholder="password" />
           </div>
 
-          <div class="gender-radio">
+          <div class="form-group">
             <label for="sex">Gender</label>
             <input type="radio" name="sex" value="male" >Male
             <input type="radio" name="sex" value="female" >Female
           </div>
-          <div>
+
+          <div class="form-group">
             <label for="fname">First Name</label>
-            <input type="text" name="fname" id="fname" value="" placeholder="first name" />
+            <input type="text" class="form-control" name="fname" id="fname" value="" placeholder="first name" />
           </div>
 
-          <div>
+          <div class="form-group">
             <label for="lname">Last Name</label>
-            <input type="text" name="lname" id="lname" value="" placeholder="last name" />    
+            <input type="text" class="form-control" name="lname" id="lname" value="" placeholder="last name" />    
           </div>
+
+          <button class="btn btn-success" type="submit">Submit</button>
 
        </form>
       </div>
