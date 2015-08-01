@@ -12,7 +12,7 @@ body{
 }
 
 body h1{
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -72,5 +72,7 @@ img.wheelie-machine{
 }
 
 .well{
-  background-color:rgba (0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.9);
+  margin-top: 50px;
+  color: white;
 }
